@@ -1,0 +1,28 @@
+/*Jessie*/
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(72, 145, 224, 1);
+}
+div {
+  padding: 2em;
+}
+a {
+  color: rgb(54,54,54);
+  font-weight: 600;
+}
+.content {
+  text-align: center;
+  background-color: rgba(255,255,255,.85);
+  padding: 2em;
+  color: rgb(54,54,54);
+}
+.bold {
+  font-weight: 600;
+}
+.big {
+  font-size: 20px;
+}
+.place{
+  height: 90px;
+}

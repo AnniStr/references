@@ -1,0 +1,18 @@
+<!--Leah (Julia: Translation) -->
+
+<div class="place"></div>
+<div class="container">
+  <br>
+  <div class="panel panel-default">
+    <div class="panel-heading ">{{ 'USER_PROFILE.profile' | translate }}</div>
+    <div class="panel-body">{{userDetails.email}}</div>
+  </div>
+  <div class="jumbotron">
+    <h1 class="display-4">{{ 'USER_PROFILE.welcome' | translate }} {{userDetails.username}}!</h1>
+    <p class="lead"> {{ 'USER_PROFILE.text1' | translate }}</p>
+    <hr class="my-4">
+    <p>{{ 'USER_PROFILE.text2' | translate }}</p>
+    <p> hav a smokin' good BBQ! </p>
+    <a class="btn btn-dark btn-lg" [routerLink]='["/products"]' role="button">{{ 'USER_PROFILE.start' | translate }}</a>
+  </div>
+</div>

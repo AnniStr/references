@@ -1,0 +1,14 @@
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}

@@ -1,0 +1,52 @@
+/* Jessie */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+h1 {
+  margin-top: 40px;
+}
+button {
+  border-radius: 10px;
+  margin: 0 7px;
+  color: rgb(107,107,107);
+  font-size: 16px;
+  height: 45px;
+  width: 45%;
+  border: none;
+  background-color: rgba(230, 230, 230, 1)
+}
+button:hover {
+  color: rgb(107,107,107);
+  background-color: rgb(191, 191, 191);
+}
+.content {
+  padding: 5%;
+}
+.header {
+  text-align: center;
+  height: 200px;
+  background-image: url(../../assets/images/black-black-and-white-photography-37727.jpg);
+  background-position: center;
+  color: rgb(255,255,255);
+}
+.place {
+  height: 90px;
+}
+.description {
+  margin-top: 25px;
+}
+.price {
+  text-align: center;
+  font-weight: 600;
+  font-size: 120%;
+}
+@media only screen and (max-width: 700px) {
+  .top {
+    margin-top: 20px;
+  }
+  .Details {
+    text-align: center;
+  }
+}

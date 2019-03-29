@@ -1,0 +1,110 @@
+{
+    "ABOUT_US":{
+        "heading1": "About us",
+        "text1": "",
+        "text2": "",
+        "heading2": "",
+        "text3": "",
+        "text4": "",
+        "text5": "",
+        "text6": ""
+    },
+    "ADDCART": {
+        "add": "has been added to your shoppingcart.",
+        "shopping_cart": "To shopping cart"
+    },
+    "FOOTER":{
+        "impressum": "Impressum",
+        "privacy_policy": "Privacy-policy"
+    },
+    "IMPRESSUM":{
+        "impressum": "Impressum",
+        "law": "According to § 5 TMG",
+        "representation": "Represented by:",
+        "contact": "Contact",
+        "tel": "Telephone: +49 (0)711 000",
+        "mail": "E-Mail: max.mustermann@smokin-bbq.de",
+        "dispute": "Online Dispute Resolution",
+        "dispute_text": "The European Commission provides a platform for online dispute resolution: ",
+        "find_mail": "Our e-mail address can be found above in the impressum."
+    },
+    "NAV": {
+        "home": "Home",
+        "aboutus": "About us",
+        "products": "Products",
+        "overview": "Overview",
+        "fireplaces": "Kamine",
+        "smokers": "Smoker",
+        "grills": "Grills",
+        "login": "Login",
+        "logout": "Logout",
+        "user": "User profile"
+    },
+    "NOT_FOUND": {
+        "text": "Not found"
+    },
+    "HOME":{
+        "heading": "Experience BBQ like never before!",
+        "text1": "",
+        "text2": "",
+        "text3": "",
+        "text4": "",
+        "text5": ""
+    },
+    "PRIVACY":{
+        "heading1": "Privacy-Policy",
+        "text1": "This Privacy Policy clarifies the nature, scope and purpose of the processing of personal data (hereinafter referred to as 'Data') in the course of the provision of our services, as well as our online offerings and related websites, features and content, and external online presence, such as web sites. our Social Media Profile (collectively referred to as the 'Online Offering'). With regard to the terminology used, e.g. 'Processing' or 'Responsible', we refer to the definitions in Article 4 of the General Data Protection Regulation (GDPR).",
+        "heading2": "Responsible",
+        "manager": "Manager"
+    },
+    "PROD_DETAIL": {
+        "currency": "$",
+        "per": "per",
+        "back": "Back to list"
+    },
+    "PRODUCT": {
+        "title": "Products",
+        "currency": "$",
+        "per": "per",
+        "detail": "Details"
+    },
+    "CART": {
+        "heading": "Your Shopping Cart",
+        "quantity": "Quantity",
+        "product": "Product",
+        "price": "Price",
+        "total": "Total: ",
+        "currency": "$",
+        "subtotal": "Subtotal",
+        "continue": "Continue Shopping",
+        "button": "Pay"
+    },
+    "USER":{
+        "registration": "Registration"
+    },
+    "SIGN_IN":{
+        "title": "Please sign in",
+        "mail": "Email",
+        "password": "Password",
+        "validation_message1": "Invalid email address.",
+        "validation_message2": "Minimum 6 characters.",
+        "button": "Sign in"
+    },
+    "SIGN_UP":{
+        "username": "Username",
+        "mail": "Email",
+        "validation_message1":"Required field",
+        "validation_message2":"Invalid email address",
+        "password": "Password",
+        "validation_message3": "Minimum 6 characters.",
+        "registrate": "Registrate",
+        "success_message": "Registration successful!"
+    },
+    "USER_PROFILE":{
+        "profile": "Logged in user",
+        "welcome": "Welcome back",
+        "text1": "Thank you for being our valued customers.",
+        "text2": "",
+        "start": "Start shopping"
+    }
+}

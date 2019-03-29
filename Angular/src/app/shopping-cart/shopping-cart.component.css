@@ -1,0 +1,54 @@
+/* Jessie */
+h1 {
+  margin-top: 50px;
+}
+.container {
+  background-color: rgba(255,255,255,.85);
+  margin-top: 30px;
+}
+.header {
+  text-align: center;
+  height: 200px;
+  background-color: transparent;
+  color: rgb(255,255,255);
+}
+.place {
+  height: 90px;
+}
+.btn{
+  margin:20px;
+  border: none;
+}
+.btn-warning{
+  background-color: rgb(191,191,191);
+}
+.btn-warning:hover{
+  background-color: rgb(107,107,107);
+  color: rgb(255,255,255);
+}
+.btn-success{
+  background-color: rgba(120, 181, 242, 1);
+}
+.btn-success:hover{
+  background-color: rgba(22, 122, 223, 1);
+}
+.btn-danger{
+  background-color: rgba(123, 36, 36, 1);
+}
+.btn-danger:hover{
+  background-color: rgba(206, 85, 85, 1);
+}
+.total{
+  font-size: 20px;
+}
+@media only screen and (max-width: 700px){
+  .total{
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 700px){
+  .total{
+    text-align: right;
+  }
+}
+

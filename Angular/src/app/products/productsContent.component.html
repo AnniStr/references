@@ -1,0 +1,28 @@
+<!-- Anni & Julia -->
+
+<div class="container test">
+  <div class="col-sm-4" *ngFor="let prod of products">
+    <div class="card">
+      <img class="card-img-top img-responsive thumbnail" src="assets/{{prod.imagePath}}" alt="{{prod.name}}">
+      <div class="product-content">
+        <h5 class="card-title pull-left title">{{prod.name}}</h5>
+        <h5 class="pull-right price">{{ 'PRODUCT.currency' | translate }} {{prod.price}} {{ 'PRODUCT.per' | translate }} {{prod.quantity}}</h5>
+      </div>
+      <div class="bottoms">
+        <div class="bottomElements">
+          <button (click)="showProductDetails(prod)" class="btn btn-light pull-left">
+            {{ 'PRODUCT.detail' | translate }}
+          </button>
+        </div>
+        <div class="bottomElements">
+          <button class="btn btn-light pull-right" >
+            <i class="material-icons" (click)="setItem(prod)" data-toggle="modal" data-target="#added-to-cart-modal">
+              shopping_cart
+            </i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>

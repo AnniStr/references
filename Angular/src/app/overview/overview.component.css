@@ -1,0 +1,32 @@
+/*Jessie*/
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+p {
+    text-align: center;
+    color: rgb(220,220,220);
+}
+.content {
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    padding-top: 25%;
+}
+.sign{
+  padding: 10px;
+  font-family: 'Great Vibes';
+  font-size: 25px;
+}
+[type ="button"] {
+    border-radius: 20pt;
+    padding-right: 15pt;
+    padding-left: 15pt;
+    border:none;
+    color: rgb(191,191,191);
+    background-color: rgba(107,107,107,.5);
+}
+[type = "button"]:hover{
+  background-color: rgba(191,191,191, .8);
+  color: black;
+}

@@ -1,0 +1,109 @@
+/* Jessie */
+img {
+  width: auto;
+  transition: all .5s ease 0s;
+  object-fit: cover;
+}
+h1{
+  margin-top: 40px;
+}
+button {
+  border-radius: 50px;
+  margin: 0 7px;
+  color: rgb(107,107,107);
+  font-size: 16px;
+  height: 45px;
+  width: 80px;
+  border: none;
+}
+button:hover{
+  color: #fff;
+  background-color: rgba(107,107,107, .85);
+}
+#products {
+  text-align: center;
+  height: 200px;
+  background-image: url(../../assets/images/black-black-and-white-photography-37727.jpg);
+  background-position: center;
+  color: rgb(255,255,255);
+}
+.place{
+  height: 90px;
+}
+.test{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 35rem;
+}
+.content {
+  background-color: rgb(255,255,255);
+}
+.card {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family:Roboto,sans-serif;
+  text-align:center;
+  position:relative;
+  overflow: hidden;
+  border: none;
+}
+.card:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.price {
+  font-size: 18px;
+  color: rgba(107, 107, 107, 1);
+}
+.card-img-top {
+  overflow: hidden;
+  height: 200px;
+}
+.card:hover img{
+  transform: scale(1.1);
+  overflow-x: hidden;
+}
+.product-content{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0 0 10px;
+  transition: all .3s ease 0s;
+}
+.bottoms {
+  opacity: 0;
+  background-color: transparent;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  z-index: 1;
+  transition: all .5s ease 0s;
+}
+.card:hover .bottoms{
+  opacity: 1;
+  bottom: 40px;
+}
+.bottomElements {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

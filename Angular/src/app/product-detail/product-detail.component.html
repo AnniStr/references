@@ -1,0 +1,30 @@
+<!-- Anni -->
+
+<div class="header">
+  <div class="place"> </div>
+  <h1>Produktdetails</h1>
+</div>
+<div class="content" *ngIf="product">
+  <div class="row product">
+    <div class="col-sm-6 imgage">
+      <img src="assets/{{product.imagePath}}" alt="{{product.name}}">
+    </div>
+    <div class="col-sm-6 Details">
+      <div class="top">
+        <h2>{{product.name}}</h2>
+      </div>
+      <div class="description">
+        <p>{{product.description}}</p>
+      </div>
+      <div class="bottom">
+        <p class="price" >{{ 'PROD_DETAIL.currency' | translate }} {{product.price}} {{ 'PROD_DETAIL.per' | translate }} {{product.quantity}}</p>
+        <button class="btn btn-light">
+          <i class="material-icons" (click)="addToCart(product)" data-toggle="modal" data-target="#added-to-cart-modal">shopping_cart</i>
+        </button>
+        <button (click)="toggleDetails(false)" class="btn btn-light">
+          {{ 'PROD_DETAIL.back' | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

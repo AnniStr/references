@@ -1,0 +1,42 @@
+<!--Leah-->
+<div class="signUp">
+  <h1>{{ 'USER.registration' | translate }}</h1>
+  <form #signUpForm="ngForm" (ngSubmit)="signUpForm.valid && onSubmit(signUpForm)">
+    <div class="nameMailPW">
+      <div class="name">
+        <input type="text" class="form-control" #username="ngModel" [(ngModel)]="userService.selectedUser.username" name="username" placeholder="{{ 'SIGN_UP.username' | translate }}"
+        required  [ngClass]="{'invalid-textbox' :signUpForm.submitted && !username.valid }">
+        <div *ngIf="signUpForm.submitted && !username.valid">
+          <label class="validation-message">{{ 'SIGN_UP.validation_message1' | translate }}</label>
+        </div>
+      </div>
+      <div class="email">
+        <input type="text" class="form-control" #email="ngModel" [(ngModel)]="userService.selectedUser.email" name="email" placeholder="{{ 'SIGN_UP.mail' | translate }}"
+        required [pattern]="emailRegex"  [ngClass]="{'invalid-textbox' :signUpForm.submitted && !email.valid }">
+        <div *ngIf="signUpForm.submitted && email.errors">
+          <label *ngIf="email?.errors.required" class="validation-message">{{ 'SIGN_UP.validation_message1' | translate }}</label>
+          <label *ngIf="email?.errors.pattern" class="validation-message">{{ 'SIGN_UP.validation_message2' | translate }}</label>
+        </div>
+      </div>
+      <div class="password">
+        <input type="password" class="form-control" #password="ngModel" [(ngModel)]="userService.selectedUser.password" name="password" placeholder="{{ 'SIGN_UP.password' | translate }}"
+        minlength="6" required [ngClass]="{'invalid-textbox' :signUpForm.submitted && !password.valid }">
+        <div *ngIf="signUpForm.submitted && password.errors">
+          <label *ngIf="password?.errors.required" class="validation-message">{{ 'SIGN_UP.validation_message1' | translate }}</label>
+          <label *ngIf="password?.errors.minlength" class="validation-message">{{ 'SIGN_UP.validation_message3' | translate }}</label>
+        </div>
+      </div>
+    </div>
+    <div class="signUpButton">
+      <input class="btn" type="submit" value="{{ 'SIGN_UP.registrate' | translate }}">
+    </div>
+  </form>
+  <!-- Success message -->
+  <div class="success" *ngIf="showSucessMessage">
+    {{ 'SIGN_UP.success_message' | translate }}
+  </div>
+  <!-- Error message -->
+  <div class="alert" *ngIf="serverErrorMessages">
+    {{serverErrorMessages}}
+  </div>
+</div>

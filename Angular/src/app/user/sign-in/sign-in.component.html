@@ -1,0 +1,32 @@
+<!--Leah-->
+<div class="place"></div>
+<div class="signIn">
+    <h1>{{ 'SIGN_IN.title' | translate }}</h1>
+    <form #signInForm="ngForm" (ngSubmit)="signInForm.valid && onSubmit(signInForm)">
+      <div class="mailAndPW">
+        <div class="email">
+          <input type="email" class="form-control" name="email" #email="ngModel" [(ngModel)]="model.email" placeholder="{{ 'SIGN_IN.mail' | translate }}" [pattern]="emailRegex" required
+          [ngClass]="{'invalid-textbox' :signInForm.submitted && !email.valid }">
+          <div *ngIf="signInForm.submitted && email?.errors.pattern">
+            <label class="validation-message">{{'SIGN_IN.validation_message1' | translate }}</label>
+          </div>
+        </div>
+        <div class="password">
+          <input type="password" class="form-control" name="password" #password="ngModel" [(ngModel)]="model.password" placeholder="{{ 'SIGN_IN.password' | translate }}" required minlength="4"
+          [ngClass]="{'invalid-textbox' :signInForm.submitted && !password.valid }">
+          <div *ngIf="signInForm.submitted && password?.errors.minlength">
+            <label class="validation-message">{{'SIGN_IN.validation_message2' | translate }}</label>
+            <label class="validation-message">{{'SIGN_IN.validation_message1' | translate }}</label>
+          </div>
+        </div>
+      </div>
+      <div class="signInButton">
+        <input class="btn" type="submit" value="{{'SIGN_IN.button' | translate}}">
+      </div>
+    </form>
+    <!-- Error message -->
+    <div class="alert" *ngIf="serverErrorMessages">
+        {{serverErrorMessages}}
+    </div>
+</div>
+

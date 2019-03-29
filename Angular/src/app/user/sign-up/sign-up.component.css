@@ -1,0 +1,22 @@
+/*Jessie*/
+h1{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 15px;
+}
+.signUp{
+  background-color: rgba(255,255,255, 0.85);
+  margin: 10px;
+  padding: 20px;
+}
+.signUpButton{
+  padding-top: 15px;
+}
+.btn:hover{
+  color: white;
+  background-color: rgb(107,107,107);
+}
+.email, .name{
+  padding-bottom: 5px;
+}
+

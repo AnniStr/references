@@ -1,0 +1,50 @@
+<!-- Jannik -->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" routerLink="">
+    <img class="logo" src="..\..\assets\images\logo_white.png" alt="Smokin' BBQ Logo" title="Smokin' BBQ">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse multi-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="about-us" [translate]="'NAV.aboutus'"></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{ 'NAV.products' | translate }}</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLink="products">{{ 'NAV.overview' | translate }}</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" routerLink="products/fireplaces">{{ 'NAV.fireplaces' | translate }}</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" routerLink="products/grills">{{ 'NAV.grills' | translate }}</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" routerLink="products/smokers">{{ 'NAV.smokers' | translate }}</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-collapse collapse multi-collapse">
+    <ul class="navbar-nav navbar-right ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="user" *ngIf="!userService.getToken()">{{ 'NAV.login' | translate }}</a>
+        <a class="nav-link" routerLink="signup" *ngIf="userService.getToken()" (click)="onLogout()">Logout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="userProfile" *ngIf="userService.getToken()">{{ 'NAV.user' | translate }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="shopping-cart"><i class="material-icons">shopping_cart</i></a>
+      </li>
+      <li class="nav-item">
+        <input  type='button' value='DE' class='btn btn-language btn-outline-secondary' (click)="selectLang('de');" >
+        <input  type='button' value='EN' class='btn btn-language btn-outline-secondary' (click)="selectLang('en');"  >
+      </li>
+    </ul>
+  </div>
+</nav>

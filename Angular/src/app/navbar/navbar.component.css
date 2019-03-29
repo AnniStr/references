@@ -1,0 +1,73 @@
+/* Jannik */
+.navbar {
+  min-height: 90px;
+  transition: background-color 200ms linear, min-height 200ms linear;
+}
+.navbar-compact {
+  background-color: black;
+  min-height: 60px;
+  transition: background-color 200ms linear, min-height 200ms linear;
+}
+.navbar-open {
+  background-color: black;
+  transition: background-color 200ms linear;
+}
+.logo {
+  height: 70px;
+  transition: height 200ms linear;
+}
+.navbar-compact .logo {
+  height: 40px;
+  transition: height 200ms linear;
+}
+.collapsing:first-of-type,.collapse.show:first-of-type  {
+  margin-top: 90px;
+}
+.dropdown-menu {
+  margin-top: 10px;
+  background-color: black;
+}
+.dropdown-menu a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.dropdown-item:hover, .dropdown-menu a:hover {
+  color: rgba(255, 255, 255, 0.75);
+  background-color: black;
+}
+.dropdown-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.btn-language {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.navbar-toggler {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  transition: top 200ms linear;
+}
+
+.toggler-compact, .toggler-compact > .navbar-toggler-icon {
+  top: 10px;
+  transition: top 200ms linear;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-brand {
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    transform: translateX(-30%);
+  }
+  .logo {
+    height: 60px;
+  }
+}

@@ -1,0 +1,111 @@
+{
+    "ABOUT_US":{
+        "heading1": "",
+        "text1": "",
+        "text2": "",
+        "heading2": "",
+        "text3": "",
+        "text4": "",
+        "text5": "",
+        "text6": ""
+    },
+    "ADDCART": {
+        "add": "wurde zum Warenkorb hinzugefügt.",
+        "shopping_cart": "Zum Warenkorb"
+    },
+    "FOOTER":{
+        "impressum": "Impressum",
+        "privacy_policy": "Datenschutzerklärung"
+
+    },
+    "IMPRESSUM":{
+        "impressum": "Impressum",
+        "law": "Angaben gemäß § 5 TMG",
+        "representation": "Vertreten durch:",
+        "contact": "Kontakt",
+        "tel": "Telefon: +49 (0)711 000",
+        "mail": "E-Mail: max.mustermann@smokin-bbq.de",
+        "dispute": "Streitschlichtung",
+        "dispute_text": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: ",
+        "find_mail": "Unsere E-Mail-Adresse finden Sie oben im Impressum."
+    },
+    "NAV": {
+        "home": "Home",
+        "aboutus": "Über uns",
+        "products": "Produkte",
+        "fireplaces": "Kamine",
+        "overview": "Übersicht",
+        "smokers": "Smoker",
+        "grills": "Grills",
+        "login": "Login",
+        "logout": "Ausloggen",
+        "user": "Benutzerprofil"
+    },
+    "NOT_FOUND": {
+        "text": "Nicht gefunden"
+    },
+    "HOME":{
+        "heading": "Erlebe BBQ wie nie zuvor!",
+        "text1": "",
+        "text2": "",
+        "text3": "",
+        "text4": "",
+        "text5": ""
+    },
+    "PRIVACY":{
+        "heading1": "Datenschutzerklärung",
+        "text1": "Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) im Rahmen der Erbringung unserer Leistungen sowie innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).",
+        "heading2": "Verantwortlicher",
+        "manager": "Geschäftsführer"
+    },
+    "PROD_DETAIL": {
+        "currency": "€",
+        "per": "pro",
+        "back": "Zurück zur Liste"
+    },
+    "PRODUCT": {
+        "title": "Produkte",
+        "currency": "€",
+        "per": "pro",
+        "detail": "Details"
+    },
+    "CART": {
+        "heading": "Ihr Warenkorb",
+        "quantity": "Anzahl",
+        "product": "Produkt",
+        "price": "Preis",
+        "total": "Gesamtpreis: ",
+        "currency": "€",
+        "subtotal": "Zwischensumme",
+        "continue": "Weiter einkaufen",
+        "button": "Bezahlen"
+    },
+    "USER":{
+        "registration": "Registrierung"
+    },
+    "SIGN_IN":{
+        "title": "Hier anmelden",
+        "mail": "E-Mail",
+        "password": "Passwort",
+        "validation_message1":"Ungültige E-Mail-Adresse.",
+        "validation_message2":"Mindestens 6 Zeichen.",
+        "button": "Anmelden"
+    },
+    "SIGN_UP":{
+        "username": "Benutzername",
+        "mail": "E-Mail",
+        "validation_message1":"Pflichtfeld",
+        "validation_message2":"Ungültige E-Mail-Adresse.",
+        "password": "Passwort",
+        "validation_message3": "Das Passwort muss mindestens 6 Zeichen haben.",
+        "registrate": "Registrieren",
+        "success_message": "Erfolgreich registriert!"
+    },
+    "USER_PROFILE":{
+        "profile": "Angemeldeter Benutzer",
+        "welcome": "Willkommen zurück",
+        "text1": "Vielen Dank, dass Sie unser geschätzter Kunden sind.",
+        "text2": "",
+        "start": "Jetzt einkaufen"
+    }
+}

@@ -1,0 +1,14 @@
+<!--Anni-->
+
+<div class="content">
+  <div id="product" *ngIf="!getshowDetails()">
+    <div class="header" id="products">
+      <div class="place"></div>
+      <h1>{{ 'PRODUCT.title' | translate }}</h1>
+    </div>
+    <app-products-content [hidden]="!getisLanguageSet()" [products]="getProductsDE()"></app-products-content>
+    <app-products-content [hidden]="getisLanguageSet()" [products]="getProductsEN()"></app-products-content>
+  </div>
+  <app-product-detail *ngIf="getshowDetails() && getselectedProduct()" [product]="getselectedProduct()"></app-product-detail>
+  <app-added-to-cart-modal *ngIf="getselectedProduct()" [product]="getselectedProduct()"></app-added-to-cart-modal>
+</div>

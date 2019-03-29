@@ -1,0 +1,20 @@
+/* Jessie */
+.content {
+  background-image: var(--HintergrundBildDunkel);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 20px;
+}
+.registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

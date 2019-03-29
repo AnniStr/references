@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af041ea9-4b9a-4701-b005-aba0c9d53b35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/about-us/about-us.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/about-us/about-us.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/about-us/about-us.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/added-to-cart-modal/added-to-cart-modal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/added-to-cart-modal/added-to-cart-modal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/added-to-cart-modal/added-to-cart-modal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/added-to-cart-modal/added-to-cart-modal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/auth/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/auth/auth.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/csrf/csrf.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/impressum/impressum.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/impressum/impressum.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/impressum/impressum.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/modal/modal-component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/modal/modal-component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/modal/modal-component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/navbar/navbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/not-found/not-found.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/not-found/not-found.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/not-found/not-found.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/overview/overview.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/overview/overview.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/overview/overview.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/privacy-policy/privacy-policy.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/privacy-policy/privacy-policy.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/privacy-policy/privacy-policy.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/product-detail/product-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/product-detail/product-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/product-detail/product-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/products/grills/productsGrills.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/products/products.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/products/products.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/products/products.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/products/productsContent.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/products/productsContent.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/products/smokers/productsSmokers.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/products/vegetal/productsFireplaces.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/shared/item.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/shared/item.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/shared/product.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/shared/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/shared/user.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/shared/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/shopping-cart/shopping-cart.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/shopping-cart/shopping-cart.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/shopping-cart/shopping-cart.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user-profile/user-profile.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user-profile/user-profile.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user-profile/user-profile.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user/sign-in/sign-in.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user/sign-in/sign-in.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user/sign-in/sign-in.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user/sign-up/sign-up.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user/sign-up/sign-up.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user/sign-up/sign-up.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user/user.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user/user.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/user/user.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/i18n/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/i18n/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/Laredo_Grill.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/bbq2000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/black-1226643_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/black-black-and-white-photography-37727.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/boss-fashion-hat-8190.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/boss-fashion-hat-8190_dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/christmas-gift-3012821_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/cigarette-110849_1280.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/elektro.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/essen-grill-lebensmittel-1414814.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/garden-fire.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/garden-modern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/gentleman-539993_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/grill-2377860_960_720.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/grill.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/haekchen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/haekchen_transparenz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/holzkohle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/kugelgrill.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/logo-kugel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/logo2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/logo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/oldtimer-1677923_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/people-2574169_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/people-2574169_1920_darker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/smoke-1031060_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/smoke-298243_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/smoke-69124_1280.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/smoker-plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/smoking-1245653_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/images/the-family.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/video/Smoke-9553.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/environments/environment.dev.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/config/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/config/jwtHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/config/passportConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/controllers/itemController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/controllers/productController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/controllers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/logs/errors.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/logs/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/models/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/models/user.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/routes/index.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/test/mocha.opts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/test/unit/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/test/unit/user.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="520" />
+    <option name="y" value="80" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="smokin-BBQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smokin-BBQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smokin-BBQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smokin-BBQ" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af041ea9-4b9a-4701-b005-aba0c9d53b35" name="Default Changelist" comment="" />
+      <created>1553881180476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553881180476</updated>
+      <workItem from="1553881182021" duration="535000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="535000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="520" y="80" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963072" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295063" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

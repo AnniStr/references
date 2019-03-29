@@ -1,0 +1,20 @@
+/* Jessie */
+img {
+  height: 60px;
+  width: auto;
+}
+.modal {
+  text-align: center;
+}
+.btn {
+  border-radius: 10px;
+  width: 45%;
+  border: none;
+  background-color: rgba(230, 230, 230, 1)
+}
+.btn:hover {
+  background-color: rgb(191, 191, 191);
+}
+.modal-header {
+  background-color: rgb(191,191,191);
+}
