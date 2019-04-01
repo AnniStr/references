@@ -1,13 +1,13 @@
 {
     "ABOUT_US":{
-        "heading1": "",
-        "text1": "",
-        "text2": "",
-        "heading2": "",
-        "text3": "",
-        "text4": "",
-        "text5": "",
-        "text6": ""
+        "heading1": "Über uns",
+        "text1": "Das Smokin BBQ Team steht seit 20 Jahren für qualitativ hochwertige Grills.",
+        "text2": "Alle Informationen rund ums Unternehmen finden Sie hier.",
+        "heading2": "Unternehmensphilosophie",
+        "text3": "Als führender Vertreiber Grills trägt das Smokin BBQ Team besondere Verantwortung.",
+        "text4": "Nachhaltigkeit steht daher im Mittelpunkt der Unternehmensphilosophie. Dazu gehören die langfristige Ausrichtung des unternehmerischen Handelns, der schonende Umgang mit Ressourcen und Umwelt ebenso wie gesellschaftliche Verantwortung und ein soziales Miteinander.",
+        "text5": "Seit mehr als hundert Jahren wird das Familienunternehmen von christlichen Werten getragen: Die Achtung vor der Schöpfung und der Würde des Menschen stehen im Zentrum unserer Philosophie. Das ist der Grund, warum wir seit 1956 Rohstoffe aus ökologischem Anbau beziehen und faire Preise an unsere Vertragsbauern zahlen. Es erklärt aber auch unser großes Engagement für die Gesundheit, die Motivation und die Weiterbildung unserer Mitarbeiterinnen und Mitarbeiter.",
+        "text6": "Natürlich wird der Erfolg von ökonomischen Faktoren bestimmt. Als wahren Maßstab sehen wir allerdings ethische Werte, die im gesellschaftlichen ebenso wie im wirtschaftlichen Miteinander besonders wichtig sind. Aus unserem tief empfundenen Verantwortungsbewusstsein gegenüber Mensch und Natur ist 1999 unsere eigene Ethik-Charta hervorgegangen. Vom fairen Wettbewerb am Markt zum respekt- und vertrauensvollen Umgang mit Lieferanten, Kunden und Mitarbeitern gibt sie als moralischer Wegweiser allen, die für die Familie arbeiten, die richtige Richtung vor."
     },
     "ADDCART": {
         "add": "wurde zum Warenkorb hinzugefügt.",
@@ -24,7 +24,7 @@
         "representation": "Vertreten durch:",
         "contact": "Kontakt",
         "tel": "Telefon: +49 (0)711 000",
-        "mail": "E-Mail: max.mustermann@smokin-bbq.de",
+        "mail": "E-Mail: max.mustermann@smokinbbq.de",
         "dispute": "Streitschlichtung",
         "dispute_text": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: ",
         "find_mail": "Unsere E-Mail-Adresse finden Sie oben im Impressum."
@@ -32,7 +32,7 @@
     "NAV": {
         "home": "Home",
         "aboutus": "Über uns",
-        "products": "Produkte",
+        "products": "Grills",
         "fireplaces": "Kamine",
         "overview": "Übersicht",
         "smokers": "Smoker",
@@ -45,12 +45,12 @@
         "text": "Nicht gefunden"
     },
     "HOME":{
-        "heading": "Erlebe BBQ wie nie zuvor!",
-        "text1": "",
-        "text2": "",
-        "text3": "",
-        "text4": "",
-        "text5": ""
+        "heading": "Erleben Sie grillen wie niemals zuvor!",
+        "text1": "Die Welt mit neuen Augen sehen, dem Alltag entfliehen und einen gemütlichen Abend mit der Famile und Freunden verbringen.",
+        "text2": "Für die einen ist es der Gemüse-Spieß, für die anderen das Steak. ",
+        "text3": "Das Grill-Fieber hat wahrscheinlich jeden schon mal gepackt und wenn die warmen Tage gezählt sind, will man sie umso mehr auskosten.",
+        "text4": "Grills aller erste Güte sind unser Markenzeichen. Bei uns gibt es nur beste Qualität und für Sie ein Grillerlebnis wie nie zuvor.",
+        "text5": "Ihr Smokin BBQ Team"
     },
     "PRIVACY":{
         "heading1": "Datenschutzerklärung",
@@ -104,8 +104,8 @@
     "USER_PROFILE":{
         "profile": "Angemeldeter Benutzer",
         "welcome": "Willkommen zurück",
-        "text1": "Vielen Dank, dass Sie unser geschätzter Kunden sind.",
-        "text2": "",
+        "text1": "Vielen Dank, dass Sie unser geschätzter Kunden sind. Wir sind dankbar für das Vertrauen, Ihnen qualitaiv beste Ware zu präsentieren und Ihre Bedürfnisse zu erfüllen.",
+        "text2": "Ihr völlig neues und unvergessliches Erlebnis ist nur ein paar Klicks entfernt. In unserem Online-Shop erwartet Sie eine ausgewählte Sammlung der besten Grills der Welt. Wenn Sie jetzt bestellen, ist der Grill bereits morgen bei ihnen. Es steht Ihnen nichts im Weg.",
         "start": "Jetzt einkaufen"
     }
 }

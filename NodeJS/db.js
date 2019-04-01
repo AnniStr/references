@@ -78,9 +78,9 @@ Product.findOne(function (err, result) {
                 productID: 3,
                 language: "de",
                 name: "Garten Kamin rustikal",
-                description: "",
+                description: "Der Garten Kamin von smokin' BBQ macht Ihren Garten zum rustikalen Schmuckstück.",
                 price: 159,
-                quantity: "Der Garten Kamin von smokin' BBQ macht Ihren Garten zum rustikalen Schmuckstück.",
+                quantity: "",
                 category: "fireplaces"
             }),
             new Product({
@@ -88,9 +88,9 @@ Product.findOne(function (err, result) {
                 productID: 4,
                 language: "en",
                 name: "Garden Fireplace modern",
-                description: "",
+                description: "smokin' BBQs Fireplace makes your garden a true modern eye candy",
                 price: 159,
-                quantity: "smokin' BBQs Fireplace makes your garden a true modern eye candy",
+                quantity: "",
                 category: "fireplaces"
             }),
             new Product({

@@ -9,7 +9,7 @@ import { StorageServiceModule } from 'angular-webstorage-service';
 
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './products/products.component';
-import { ProductsVegetalComponent } from './products/fireplaces/productsVegetal.component';
+import { ProductsFireplacesComponent } from './products/fireplaces/productsFireplaces.component';
 import { ProductsSmokersComponent } from './products/smokers/productsSmokers.component';
 import { ProductsGrillsComponent } from './products/grills/productsGrills.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
@@ -43,7 +43,7 @@ import { AddedToCartModalComponent } from './added-to-cart-modal/added-to-cart-m
   declarations: [
     AppComponent,
     ProductsComponent,
-    ProductsVegetalComponent,
+    ProductsFireplacesComponent,
     ProductsSmokersComponent,
     ProductsGrillsComponent,
     NavbarComponent,
@@ -84,7 +84,7 @@ import { AddedToCartModalComponent } from './added-to-cart-modal/added-to-cart-m
       { path: 'userProfile', component: UserProfileComponent },
       { path: 'modal', component: NgbdModalComponent },
       { path: 'products', component: ProductsComponent },
-      { path: 'products/fireplaces', component: ProductsVegetalComponent },
+      { path: 'products/fireplaces', component: ProductsFireplacesComponent },
       { path: 'products/smokers', component: ProductsSmokersComponent },
       { path: 'products/grills', component: ProductsGrillsComponent },
       { path: 'product-detail', component: ProductDetailComponent },

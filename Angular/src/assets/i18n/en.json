@@ -1,13 +1,13 @@
 {
     "ABOUT_US":{
         "heading1": "About us",
-        "text1": "",
-        "text2": "",
-        "heading2": "",
-        "text3": "",
-        "text4": "",
-        "text5": "",
-        "text6": ""
+        "text1": "The Smokin' BBQ Team welcomes you to our online-shop",
+        "text2": "All information about the company can be found here.",
+        "heading2": "Corporate Philosophy",
+        "text3": "As a leading distributor of grills, Smokin' BBQ has a special responsibility.",
+        "text4": "Sustainability is therefore the focus of the corporate philosophy. These include the long-term orientation of entrepreneurial activity, the careful use of resources and the environment as well as social responsibility and social interaction.",
+        "text5": "For more than a hundred years, the family business has been driven by Christian values: respect for human creation and dignity are at the heart of our philosophy. This is the reason why we have been sourcing raw materials and paying fair prices to all our workers. It also explains our commitment to the health, motivation and education of our employees.",
+        "text6": "Of course, success is determined by economic factors. However, the most important thing is that our customer is satisfyed with the purchased grill. From fair competition in the market to the respectful and trustful dealings with suppliers, customers and employees, as a moral guide it sets the right direction for all who work for our team."
     },
     "ADDCART": {
         "add": "has been added to your shoppingcart.",
@@ -23,7 +23,7 @@
         "representation": "Represented by:",
         "contact": "Contact",
         "tel": "Telephone: +49 (0)711 000",
-        "mail": "E-Mail: max.mustermann@smokin-bbq.de",
+        "mail": "E-Mail: max.mustermann@smokinbbq.de",
         "dispute": "Online Dispute Resolution",
         "dispute_text": "The European Commission provides a platform for online dispute resolution: ",
         "find_mail": "Our e-mail address can be found above in the impressum."
@@ -33,8 +33,8 @@
         "aboutus": "About us",
         "products": "Products",
         "overview": "Overview",
-        "fireplaces": "Kamine",
-        "smokers": "Smoker",
+        "fireplaces": "Fireplaces",
+        "smokers": "Smokers",
         "grills": "Grills",
         "login": "Login",
         "logout": "Logout",
@@ -44,12 +44,12 @@
         "text": "Not found"
     },
     "HOME":{
-        "heading": "Experience BBQ like never before!",
-        "text1": "",
-        "text2": "",
-        "text3": "",
+        "heading": "Experience BBQ's like never before!",
+        "text1": "See the world with new eyes, escape from everyday life and enjoy a nice evening with friends and family.",
+        "text2": "Whatever grill you are looking for, we have it.",
+        "text3": "First-rate grills are our trademark. With us there is only the best quality and for you an experience like never before.",
         "text4": "",
-        "text5": ""
+        "text5": "The Smokin' BBQ Team"
     },
     "PRIVACY":{
         "heading1": "Privacy-Policy",
@@ -103,8 +103,8 @@
     "USER_PROFILE":{
         "profile": "Logged in user",
         "welcome": "Welcome back",
-        "text1": "Thank you for being our valued customers.",
-        "text2": "",
+        "text1": "Thank you for being our valued customers. We are grateful for the pleasure of serving you and meeting your needs.",
+        "text2": "Your new Grill is just a few clicks away. A selected collection of the best grills and equipment in the world await you in our online shop. If you order now, the products will be there just tomorrow. There is nothing in your way.",
         "start": "Start shopping"
     }
 }

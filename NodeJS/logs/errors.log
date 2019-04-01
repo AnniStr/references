@@ -12,3 +12,18 @@
 {"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
 {"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
 {"errno":-2,"syscall":"open","code":"ENOENT","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"level":"error","message":"Error in DB connection : {\n  \"name\": \"MongoNetworkError\",\n  \"errorLabels\": [\n    \"TransientTransactionError\"\n  ]\n}"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"level":"error","message":"Error in DB connection : {\n  \"name\": \"MongoNetworkError\",\n  \"errorLabels\": [\n    \"TransientTransactionError\"\n  ]\n}"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"level":"error","message":"Error in DB connection : {\n  \"name\": \"MongoNetworkError\",\n  \"errorLabels\": [\n    \"TransientTransactionError\"\n  ]\n}"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
+{"level":"error","message":"Error in DB connection : {\n  \"name\": \"MongoNetworkError\",\n  \"errorLabels\": [\n    \"TransientTransactionError\"\n  ]\n}"}
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/etc/nginx/ssl/key.key","level":"error"}
